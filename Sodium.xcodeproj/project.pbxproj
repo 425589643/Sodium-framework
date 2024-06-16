@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		36A8DD561D28DC1B00B97D7E /* Sodium.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DD551D28DB9400B97D7E /* Sodium.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36A8DD591D28DC4600B97D7E /* libsodium-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A8DD521D28DAD000B97D7E /* libsodium-iOS.a */; };
 		36A8DD5A1D28DC4F00B97D7E /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DCB61D28D81900B97D7E /* core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A8DD5B1D28DC4F00B97D7E /* crypto_aead_aes256gcm.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DCB71D28D81900B97D7E /* crypto_aead_aes256gcm.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A8DD5C1D28DC4F00B97D7E /* crypto_aead_chacha20poly1305.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DCB81D28D81900B97D7E /* crypto_aead_chacha20poly1305.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -150,7 +149,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A8DD591D28DC4600B97D7E /* libsodium-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
