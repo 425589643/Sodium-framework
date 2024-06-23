@@ -66,6 +66,7 @@
 		36A8DD911D28DC4F00B97D7E /* utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DCEC1D28D81900B97D7E /* utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A8DD921D28DC4F00B97D7E /* version.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A8DCED1D28D81900B97D7E /* version.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36A8DDAE1D29409800B97D7E /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A8DD461D28DA5A00B97D7E /* Sodium.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		9CA0A84D2C27E2530018EF8B /* Sodium.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CA0A84C2C27E2530018EF8B /* Sodium.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -142,6 +143,7 @@
 		36A8DD551D28DB9400B97D7E /* Sodium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sodium.h; sourceTree = "<group>"; };
 		36A8DDA91D29409800B97D7E /* SodiumTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SodiumTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A8DDAD1D29409800B97D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CA0A84C2C27E2530018EF8B /* Sodium.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Sodium.xcframework; path = Sodium/Sodium.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA0A84D2C27E2530018EF8B /* Sodium.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +172,7 @@
 				36A8DCAC1D28D70D00B97D7E /* Products */,
 				36A8DCAD1D28D70D00B97D7E /* Sodium */,
 				36A8DDAA1D29409800B97D7E /* SodiumTests-iOS */,
+				9CA0A84A2C27DEB10018EF8B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -270,6 +274,14 @@
 				36A8DDAD1D29409800B97D7E /* Info.plist */,
 			);
 			path = "SodiumTests-iOS";
+			sourceTree = "<group>";
+		};
+		9CA0A84A2C27DEB10018EF8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CA0A84C2C27E2530018EF8B /* Sodium.xcframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,7 +573,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Sodium/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +606,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Sodium/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
