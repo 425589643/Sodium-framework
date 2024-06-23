@@ -138,7 +138,6 @@
 		36A8DCED1D28D81900B97D7E /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
 		36A8DD2A1D28D9AB00B97D7E /* sodium-lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sodium-lib.h"; sourceTree = "<group>"; };
 		36A8DD461D28DA5A00B97D7E /* Sodium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		36A8DD521D28DAD000B97D7E /* libsodium-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsodium-iOS.a"; sourceTree = "<group>"; };
 		36A8DD541D28DB9400B97D7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36A8DD551D28DB9400B97D7E /* Sodium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sodium.h; sourceTree = "<group>"; };
 		36A8DDA91D29409800B97D7E /* SodiumTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SodiumTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				36A8DD261D28D82300B97D7E /* includes */,
-				36A8DD291D28D8A300B97D7E /* libs */,
 				36A8DD541D28DB9400B97D7E /* Info.plist */,
 				36A8DD551D28DB9400B97D7E /* Sodium.h */,
 			);
@@ -258,14 +256,6 @@
 				36A8DCED1D28D81900B97D7E /* version.h */,
 			);
 			path = includes;
-			sourceTree = "<group>";
-		};
-		36A8DD291D28D8A300B97D7E /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				36A8DD521D28DAD000B97D7E /* libsodium-iOS.a */,
-			);
-			path = libs;
 			sourceTree = "<group>";
 		};
 		36A8DDAA1D29409800B97D7E /* SodiumTests-iOS */ = {
